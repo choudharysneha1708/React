@@ -15,9 +15,16 @@ function App() {
   }
   
   const decreaseValue = () =>{
-    if(counter>0){
+    if (counter > 0) {
       setCounter(counter - 1);
     }
+    /**
+     if u want to update by after clicking one time then u can do with
+     setCounter(prevCounter => prevCounter+1);
+      setCounter(prevCounter => prevCounter+1);
+       setCounter(prevCounter => prevCounter+1);
+        setCounter(prevCounter => prevCounter+1);
+     */
   }
   return (
     <>
